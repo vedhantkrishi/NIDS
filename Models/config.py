@@ -1,0 +1,9 @@
+batch_size=50
+loss_function=tf.keras.losses.BinaryCrossentropy()
+no_classes=100
+no_epochs=50
+optimizer=tf.keras.optimizers.legacy.Adam(),
+verbosity=1
+num_folds=3
+SEED=42
+dropout=0.1
